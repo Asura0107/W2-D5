@@ -128,6 +128,7 @@ while (i <= numericArray.length) {
     console.log(num1);
   } else {
     console.log(num1);
+    break;
   }
 }
 /* ESERCIZIO 10
