@@ -32,15 +32,18 @@ h1 {
   padding-bottom: 30px;
   font-weight: 600;
 }
-h3 {
+h4 {
   font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.3rem;
 }
 
 article {
   margin: 40px 30px;
   text-align: center;
 }
-article p {
+article h3 {
   font-weight: 600;
 }
 article a {
@@ -90,8 +93,9 @@ footer a {
   margin-bottom: 40px;
   height: 400px;
 }
-.section1 p {
+.section1 h3 {
   text-align: left;
+  margin-left: 60px;
 }
 .section1 img {
   width: 20%;
