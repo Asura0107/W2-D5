@@ -77,6 +77,11 @@ const cars = [
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+cars.push(Battery);
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.pop();
+}
+console.log(cars);
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
@@ -131,3 +136,56 @@ while (i <= numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+oldarr = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z"
+];
+newarr = [];
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "g":
+      newarr.push(oldarr.indexOf("G"));
+      console.log(newarr);
+      break;
+    case "n":
+      newarr.push(oldarr.indexOf("N"));
+      console.log(newarr);
+      break;
+    case "u":
+      newarr.push(oldarr.indexOf("U"));
+      console.log(newarr);
+      break;
+    case "z":
+      newarr.push(oldarr.indexOf("Z"));
+      console.log(newarr);
+      break;
+    case "d":
+      newarr.push(oldarr.indexOf("D"));
+      console.log(newarr);
+      break;
+  }
+}
