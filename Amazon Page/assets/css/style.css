@@ -1,0 +1,114 @@
+/* Your styles here */
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+header div {
+  background-color: #222f3f;
+}
+header img {
+  width: 120px;
+  padding: 1rem;
+}
+header nav {
+  background-color: #364759;
+  color: white;
+}
+header nav ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+header nav ul {
+  padding: 1rem;
+}
+main {
+  background-color: #e9edee;
+}
+h1 {
+  font-size: 2.3rem;
+  padding-top: 84px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+article {
+  margin: 40px 30px;
+  text-align: center;
+}
+article p {
+  font-weight: 600;
+}
+article a {
+  text-decoration: none;
+  color: #17717d;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+footer {
+  text-align: center;
+}
+footer div + div {
+  background-color: #222f3f;
+}
+footer img {
+  padding: 50px;
+  width: 200px;
+}
+footer a {
+  color: white;
+}
+.firstdiv {
+  background-color: #364759;
+  color: white;
+  padding: 20px;
+}
+
+.banner1 {
+  background-color: #f56600;
+  color: white;
+
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.banner {
+  background-image: url(../images/bg-image.png);
+  color: white;
+
+  height: 250px;
+  margin-bottom: 40px;
+  object-fit: cover;
+}
+.section1 {
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  height: 400px;
+}
+.section1 p {
+  text-align: left;
+}
+.section1 img {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+
+  border-radius: 20px;
+  text-align: left;
+
+  margin: 0 20px;
+  padding: 50px 0;
+}
+
+.section2 div {
+  margin: 40px 0;
+}
+
+.section2 img {
+  width: 100%;
+}
