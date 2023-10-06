@@ -94,15 +94,13 @@ footer a {
   text-align: left;
 }
 .section1 img {
-  width: 300px;
-  height: 300px;
+  width: 20%;
+  height: 330px;
   display: inline-block;
-
+  object-fit: cover;
   border-radius: 20px;
-  text-align: left;
-
-  margin: 0 20px;
-  padding: 50px 0;
+  text-align: center;
+  margin: 60px 20px;
 }
 
 .section2 div {
